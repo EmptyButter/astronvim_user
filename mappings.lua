@@ -90,6 +90,15 @@ return {
       desc = "harpoon 3",
     },
 
+    -- Focus
+    ["<C-f>"] = {
+      function()
+        vim.cmd "FocusToggle"
+        vim.notify("Focus " .. (vim.g.focus_disable and "Off" or "On"), 2, { title = "Focus" })
+      end,
+      desc = "Toggle Focus Mode",
+    },
+
     -- mappings seen under group name "Buffer"
     ["<leader>bD"] = {
       function()
