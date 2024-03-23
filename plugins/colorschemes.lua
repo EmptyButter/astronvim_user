@@ -5,9 +5,7 @@ return {
       colors = { -- add/modify theme and palette colors
         theme = {
           lotus = {
-            ui = {
-              bg = "#FCF3CF",
-            },
+            ui = {},
           },
         },
       },
