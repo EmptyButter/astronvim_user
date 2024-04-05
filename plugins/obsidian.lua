@@ -23,6 +23,22 @@ return {
         path = "~/Documents/general_notes",
       },
     },
+
+    daily_notes = {
+      folder = "Notes",
+      date_format = "%m-%d %a",
+    },
+
+    -- mappings = {
+    --   ["<leader>ch"] = {
+    --     action = function() return require("obsidian").util.toggle_checkbox() end,
+    --     opts = { buffer = true },
+    --   },
+    --   ["<leader>v"] = {
+    --     action = function() vim.cmd.ObsidianPasteImg() end,
+    --   },
+    -- },
+
     ui = {
       enable = true, -- set to false to disable all additional syntax features
       update_debounce = 200, -- update delay after a text change (in milliseconds)
@@ -54,7 +70,7 @@ return {
         ObsidianDone = { bold = true, fg = "#89ddff" },
         ObsidianRightArrow = { bold = true, fg = "#f78c6c" },
         ObsidianTilde = { bold = true, fg = "#ff5370" },
-        ObsidianBullet = { bold = true, fg = "#89ddff" },
+        ObsidianBullet = { bold = true, fg = "#c792ea" },
         ObsidianRefText = { underline = true, fg = "#c792ea" },
         ObsidianExtLinkIcon = { fg = "#c792ea" },
         ObsidianTag = { italic = true, fg = "#89ddff" },
